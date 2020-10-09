@@ -1,0 +1,346 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "14-3-3's site"
+theme= "hugo-elate"
+
+
+[params]
+  
+  custom_css = ["css/custom1.css", "css/custom2.css"]
+
+  # Meta
+  author = "Diego M Bustos"
+  description = "ISC Lab"
+  email = "dbustos@mendoza-conicet.gob.ar"
+
+  # Google Maps Javascript API Key (if not set will default to not passing a key)
+  googleMapsApiKey = ""
+
+  # Navigation
+  [params.navigation]
+    brand = "IHEM-CONICET-UNCUYO"
+    home = "Home"
+    work = "Research"
+    testimonials = "Publications"
+    services = "Services"
+    about = "Members"
+    contact = "Contact"
+
+    # You can add custom links before or after the default links
+    # Assign a weight to define the order
+    
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "External link"
+    #  weight = 10
+  
+  # Hero section
+  [params.hero]
+    title = "Cell Signal Integration Lab"
+    subtitle = "Our Lab is broadly concerned with the application of state-of-the-art experimental, This is some computational, and theoretical techniques to investigate the structure, function, and dynamics of 14-3-3 complexes. `\n`Instituto de Histologia y Embriologia de Mendoza. CONICET Universidad Nacional de Cuyo. MENDOZA - ARGENTINA.`\n`"
+ 
+  # Intro section
+  # Available icons: http://simplelineicons.com/
+  [params.intro]
+
+  [[params.intro.item]]
+    title = "Research"
+    description = "We have several lines of research about 14-3-3 protein family, from cell biology to computational biology including biochemistry"
+    url = "#"
+    #button = "Get In Touch"
+    icon = "icon-bulb"
+    img = "img_7.jpg"
+
+  [[params.intro.item]]
+    title = "People"
+    description = "In our group there are 10 people among students, researchers and technicians"
+    url = "#"
+    #button = "Click Me"
+    icon = "icon-wrench"
+    img = "img_8.jpg"
+
+  [[params.intro.item]]
+    title = "Publications"
+    description = "More than 30 publications since 2006"
+    url = "https://www.ncbi.nlm.nih.gov/myncbi/collections/mybibliography/?action=citationadd&status=success"
+    button = "Why us?"
+    icon = "icon-rocket"
+    img = "img_10.jpg"
+
+  [params.intro.video]
+    enable = true
+    title = "Watch the video on how 14-3-3 works! by Exequiel"
+    icon = "icon-play2"
+    url = "https://vimeo.com/466268472"
+
+
+  # Work section
+  [params.work]
+    enable = true
+    title = "Research"
+    description = "We have several lines of research about 14-3-3 protein family, from cell biology to computational biology including biochemistry"
+    footertext = ''
+
+    [[params.work.row]]
+      img = "work_4.jpg"
+      alt = "Image2"
+      title = "Project 1"
+      subtitle = "14-3-3 regulation of cell signaling pathways (HIPPO)"
+
+    [[params.work.row]]
+      img = "work_5.jpg"
+      alt = "Image2"
+      title = "Project 2"
+      subtitle = "regulation of adypogensis by 14-3-3 protein family"
+
+    [[params.work.row]]
+      img = "work_1.jpg"
+      alt = "Image3"
+      title = "Project 3"
+      subtitle = "HTS classification of 14-3-3 partners"
+
+    [[params.work.row]]
+      img = "work_2.jpg"
+      alt = "Image4"
+      title = "Project 4"
+      subtitle = "regulation of ostegenesis by 14-3-3 protein family"
+    
+    [[params.work.row]]
+      img = "work_3.jpg"
+      alt = "Image4"
+      title = "Project 5"
+      subtitle = "allosteric regulation of 14-3-3 proteins"
+    
+  # Testimonials section
+  [params.testimonials]
+    enable = true
+    title = "Publications"
+    description = "Selected publications, for a full list please go to the link at home/why us"
+    
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Human Adipose-Derived Mesenchymal Stem/Stromal Cells Handling Protocols. Lipid Droplets and Proteins Double-Staining&rdquo; Human Adipose-derived mesenchymal stem/stromal cells (hASCs) are of great interest because of their potential for therapeutic approaches. The method described here covers every single step necessary for hASCs isolation from subcutaneous abdominal adipose tissue, multicolor phenotyping by flow cytometry, and quantitative determination of adipogenic differentiation status by means of lipid droplets (LDs)"
+      person = 'Front Cell Dev Biol. 2018 Apr 4;6:33. doi: 10.3389/fcell.2018.00033. eCollection 2018.'
+      img = "pub4.jpg"
+      alt = "Person1"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Intrinsic disorder associated with 14-3-3 proteins and their partners &rdquo; Protein-protein interactions (PPIs) mediate a variety of cellular processes and form complex networks, where connectivity is achieved owing to the 'hub' proteins whose interaction with multiple protein partners is facilitated by the intrinsically disordered protein regions (IDPRs) and posttranslational modifications (PTMs). Universal regulatory proteins of the eukaryotic 14-3-3 family nicely exemplify these concepts and are the focus of this chapter"
+      person = 'Prog Mol Biol Transl Sci. 2019;166:19-61.doi: 10.1016/bs.pmbts.2019.03.007.'
+      img = "pub4.jpg"
+      alt = "Person2"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Controllability of protein-protein interaction phosphorylation-based networks: Participation of the hub 14-3-3 protein family&rdquo; Posttranslational regulation of protein function is an ubiquitous mechanism in eukaryotic cells. Here, we analyzed biological properties of nodes and edges of a human protein-protein interaction phosphorylation-based network, especially of those nodes critical for the network controllability. We found that the minimal number of critical nodes needed to control the whole network is 29%"
+      person = 'Sci Rep. 2016 May 19;6:26234.doi: 10.1038/srep26234.'
+      img = "pub4.jpg"
+      alt = "Person3"
+    
+  
+  # Services section
+  [params.services]
+    enable = true
+    title = "Services"
+    description = "We do services trought 'servicios tecnológicos de alto nivel' - STAN CONICET. Please send us a message if you have any question"
+
+    [[params.services.item]]
+      title = "Biological data mining &amp; databases"
+      description = "We development databases"
+      icon = "icon-layers2"
+    [[params.services.item]]
+      title = "Protein design"
+      description = "Protein feature discovery"      
+      icon = "icon-monitor"
+
+  # About section
+  [params.about]
+    enable = true
+    title = "Group members"
+    description = "We are always looking for students at any level. If you are interested in our research please contact us"
+
+    [[params.about.item]]
+      name = "Dr Diego M Bustos"
+      position = "Researcher / group leader"
+      description = "Resercher at CONICET; Postdoc NIH (USA) and CNRS (France)"
+      img = "person1.jpg"
+      alt = "Person1"
+      social = [
+        ["icon-twitter", "#dbustos"],
+        ["icon-facebook", "#"],
+        ["icon-linkedin", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Dra Marina Uhart"
+      position = "Researcher"
+      description = "Resercher at CONICET; Postdoc NIH (USA)"
+      img = "person2.jpg"
+      alt = "Person2"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-github", "#"]
+      ]
+    
+    [[params.about.item]]
+      name = "Dr Exequiel Barrera"
+      position = "Research associate"
+      description = "Resercher at CONICET; Postdoc IP Montevideo (Uruguay)"
+      img = "person3.jpg"
+      alt = "Person2"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-github", "#"]
+      ]
+    
+    [[params.about.item]]
+      name = "MSc Samanta Del Veliz"
+      position = "PhD Student (PROBIOL-UNCUYO/CONICET)"
+      description = ""
+      img = "person4.jpg"
+      alt = "Person3"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "MSc Lautaro Rivera"
+      position = "PhD Student (UBA/CONICET)"
+      description = ""
+      img = "person5.jpg"
+      alt = "Person3"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "MSc Sergio Müller"
+      position = "PhD Student (UBA/CONICET)"
+      description = ""
+      img = "person6.jpg"
+      alt = "Person3"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Od Diana Argüello"
+      position = "PhD Student (FCEN-UNCUYO/CONICET)"
+      description = ""
+      img = "person7.jpg"
+      alt = "Person3"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]
+
+
+  # Teaching section
+    [params.Teaching]
+      enable = true
+      title = "Teaching"
+      description = "Bioinformatics and Genetic Engeneering"
+
+      [[params.Teaching.item]]
+        title = "Brand &amp; Strategy"
+        description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+        icon = "icon-anchor"
+
+      [[params.Teaching.item]]
+        title = "Web &amp; Interface"
+        description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+        icon = "icon-layers2"
+      [[params.Teaching.item]]
+        title = "Photo &amp; Video"
+        description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+        icon = "icon-video2"
+
+        [[params.Teaching.item]]
+        title = "CMS &amp; eCommerce"
+        description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
+        icon = "icon-monitor"
+ 
+  # Counters section
+  [params.counters]
+    enable = true
+    title = "Stats"
+    background = "full_image_1.jpg"
+
+    [[params.counters.item]]
+      description = "Finished projects"
+      icon = "icon-briefcase"
+      from = 0
+      to = 34
+      interval = 10
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Publications"
+      icon = "icon-code"
+      from = 0
+      to = 40
+      interval = 10
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Cups of coffee, and counting"
+      icon = "icon-cup"
+      from = 0
+      to = 1302
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Former Students"
+      icon = "icon-people"
+      from = 0
+      to = 20
+      interval = 10
+      speed = 5000
+
+  # Contact section
+  [params.contact]
+    enable = true
+    map = true
+    form = true
+    title = "Get in touch"
+    description = "We are located in Mendoza at the Parque Gral San Martin, UNCUyo Campus"
+    
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "Av Libertador 80 Mendoza Argentina"],
+        ["icon-phone", "+54 (261) 4443143"],
+        ["icon-envelope", "dbustos@mendoza-conicet.gob.ar"],
+        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+      ]
+
+    name = "Your Name"
+    email = "Your email"
+    phone = "Your phone (optional)"
+    message = ""
+    button = "Send message"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    links = [
+        ["icon-twitter", "#twitter"],
+        ["icon-facebook", "#facebook"],
+        ["icon-youtube", "#youtube"]
+      ]
