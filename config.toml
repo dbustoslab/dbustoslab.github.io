@@ -23,7 +23,7 @@ theme= "hugo-elate"
     work = "Research"
     testimonials = "Publications"
     services = "Services"
-    about = "Members"
+    about = "Lab Mates"
     contact = "Contact"
 
     # You can add custom links before or after the default links
@@ -89,7 +89,7 @@ theme= "hugo-elate"
     footertext = ''
 
     [[params.work.row]]
-      img = "work_4.jpg"
+      img = "work_4.png"
       alt = "Image2"
       title = "Project 1"
       subtitle = "14-3-3 regulation of cell signaling pathways (HIPPO)"
@@ -162,7 +162,7 @@ theme= "hugo-elate"
   # About section
   [params.about]
     enable = true
-    title = "Group members"
+    title = "Lab Mates"
     description = "We are always looking for students at any level. If you are interested in our research please contact us"
 
     [[params.about.item]]
