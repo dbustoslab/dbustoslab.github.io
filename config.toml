@@ -52,7 +52,7 @@ theme= "hugo-elate"
 
   [[params.intro.item]]
     title = "Research"
-    description = "We have several lines of research about 14-3-3 protein family, from cell biology to computational biology including biochemistry"
+    description = "We have several research proects on 14-3-3 protein family, from cell biology to computational biology including biochemistry"
     url = "#"
     #button = "Get In Touch"
     icon = "icon-bulb"
