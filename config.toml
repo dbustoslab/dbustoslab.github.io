@@ -325,7 +325,7 @@ theme= "hugo-elate"
     details = [
         ["icon-home", "Av Libertador 80 Mendoza Argentina"],
         ["icon-phone", "+54 (261) 4443143"],
-        ["icon-envelope", "dbustos@mendoza-conicet.gob.ar"],
+        ["icon-envelope", "diegmbustos@gm.fcen.uncu.edu.ar"],
         ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
       ]
 
