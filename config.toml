@@ -44,7 +44,7 @@ theme= "hugo-elate"
   # Hero section
   [params.hero]
     title = "Cell Signal Integration Lab"
-    subtitle = "Our Lab is broadly concerned with the application of state-of-the-art experimental, computational, and theoretical techniques to investigate the structure, function, and dynamics of 14-3-3 complexes. `\n` We are located @Instituto de Histologia y Embriologia de Mendoza. CONICET Universidad Nacional de Cuyo. MENDOZA - ARGENTINA.`\n`"
+    subtitle = "Our Lab is broadly involved in applying state-of-the-art experimental, computational, and theoretical techniques to investigate the structure, function, and dynamics of 14-3-3 complexes. `\n` We are located @Instituto de Histologia y Embriologia de Mendoza. CONICET Universidad Nacional de Cuyo. MENDOZA - ARGENTINA.`\n`"
  
   # Intro section
   # Available icons: http://simplelineicons.com/
