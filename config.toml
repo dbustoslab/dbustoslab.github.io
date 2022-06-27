@@ -98,7 +98,7 @@ theme= "hugo-elate"
       img = "work_5.jpg"
       alt = "Image2"
       title = "Project 2"
-      subtitle = "regulation of adypogensis by 14-3-3 protein family"
+      subtitle = "regulation of adipogensis by 14-3-3 protein family"
 
     [[params.work.row]]
       img = "work_1.jpg"
