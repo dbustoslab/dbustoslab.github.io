@@ -11,7 +11,7 @@ theme= "hugo-elate"
   # Meta
   author = "Diego M Bustos"
   description = "ISC Lab"
-  email = "dbustos@mendoza-conicet.gob.ar"
+  email = "diegombustos@gm.fcen.uncu.edu.ar"
 
   # Google Maps Javascript API Key (if not set will default to not passing a key)
   googleMapsApiKey = ""
